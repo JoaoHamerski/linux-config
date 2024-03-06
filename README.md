@@ -65,11 +65,11 @@ Edit
 
 ```
 Section "InputClass"
-    Identifier "libinput touchpad catchall" // Section with this
+    Identifier "libinput touchpad catchall" # In this scetion/identifier
     MatchIsTouchpad "on"
     MatchDevicePath "/dev/input/event*"
     Driver "libinput"
-    Option "Tapping" "on" // Add this
+    Option "Tapping" "on" # Add this
 EndSection
 ```
 
