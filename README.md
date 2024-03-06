@@ -1,4 +1,5 @@
 # Ubuntu Setup
+My personal adjustments for Ubuntu/Linux
 
 - [Change cursors theme](#change-cursors)
 - [Change default emoji shortcut](#default-emoji)
