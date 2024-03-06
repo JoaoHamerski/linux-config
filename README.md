@@ -14,6 +14,7 @@ My personal adjustments for Ubuntu/Linux
 - [Virtual Box Driver Error](#virtual-box)
 - [ZSH and Oh My Zsh for terminal](#zsh)
 
+# 
 ### Change cursors theme<a name="change-cursors"></a>
 
 Cursors themes downloaded at: https://www.gnome-look.org/browse?cat=107&ord=latest  
