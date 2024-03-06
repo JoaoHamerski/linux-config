@@ -110,7 +110,7 @@ Host hostname
 Then `ssh hostname` to connect
 
 ### Virtual Box Driver Error<a name="virtual-box"></a>
-https://forums.virtualbox.org/viewtopic.php?t=110128
+https://forums.virtualbox.org/viewtopic.php?t=110128  
 Install:
 > The VirtualBox Linux kernel driver is either not loaded or not set up correctly. Please try setting it up again by executing '/sbin/vboxconfig'
 ```
