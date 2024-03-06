@@ -10,6 +10,7 @@
 - [Flameshot for screenshots](#flameshot)
 - [Papirus Icon Theme](#papirus-icon)
 - [SSH config file example](#ssh-config)
+- [Virtual Box Driver Error](#virtual-box)
 - [ZSH and Oh My Zsh for terminal](#zsh)
 
 ### Change cursors theme<a name="change-cursors"></a>
@@ -91,6 +92,22 @@ sudo apt-get install grub-customizer
 ### Papirus Icon Theme<a name="papirus-icon"></a>
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+
+### Virtual Box Driver Error
+https://forums.virtualbox.org/viewtopic.php?t=110128
+Install:
+> The VirtualBox Linux kernel driver is either not loaded or not set up correctly. Please try setting it up again by executing '/sbin/vboxconfig'
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa -y
+```
+
+```
+sudo apt update
+```
+
+```
+sudo apt install g++-12 gcc-12
+```
 
 ### SSH config file example<a name="ssh-config"></a>
 
