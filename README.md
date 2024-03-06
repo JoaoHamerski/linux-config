@@ -93,21 +93,7 @@ sudo apt-get install grub-customizer
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
-### Virtual Box Driver Error
-https://forums.virtualbox.org/viewtopic.php?t=110128
-Install:
-> The VirtualBox Linux kernel driver is either not loaded or not set up correctly. Please try setting it up again by executing '/sbin/vboxconfig'
-```
-sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa -y
-```
 
-```
-sudo apt update
-```
-
-```
-sudo apt install g++-12 gcc-12
-```
 
 ### SSH config file example<a name="ssh-config"></a>
 
@@ -123,6 +109,21 @@ Host hostname
 
 Then `ssh hostname` to connect
 
+### Virtual Box Driver Error<a name="virtual-box"></a>
+https://forums.virtualbox.org/viewtopic.php?t=110128
+Install:
+> The VirtualBox Linux kernel driver is either not loaded or not set up correctly. Please try setting it up again by executing '/sbin/vboxconfig'
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa -y
+```
+
+```
+sudo apt update
+```
+
+```
+sudo apt install g++-12 gcc-12
+```
 ### ZSH and Oh My Zsh for terminal<a name="zsh"></a>
 
 #### Install ZSH
