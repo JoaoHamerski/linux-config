@@ -1,11 +1,12 @@
 # Ubuntu Setup
 
 - [Change cursors theme](#change-cursors)
-- [Change GRUB background color](#change-grub)
 - [Change default emoji shortcut](#default-emoji)
+- [Change GRUB background color](#change-grub)
 - [Delay on volume change fix](#delay-volume)
 - [Dual boot Windows-Ubuntu time fix](#time-fix)
 - [Enable touch-to-click on login screen](#enable-touch)
+- [GRUB Customizer](#grub-customizer)
 - [Flameshot for screenshots](#flameshot)
 - [Papirus Icon Theme](#papirus-icon)
 - [SSH config file example](#ssh-config)
@@ -73,7 +74,7 @@ EndSection
 
 https://flameshot.org/
 
-### GRUB Customizer
+### GRUB Customizer<a name="grub-customizer"></a>
 
 ```
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
