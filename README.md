@@ -127,6 +127,15 @@ sudo apt update
 ```
 sudo apt install g++-12 gcc-12
 ```
+
+Run: 
+```
+sudo /sbin/vboxconfig
+```
+And continue the setup.
+
+Reboot the PC > At blue screen > Enroll MOK > Yes > Input your password > Reboot
+
 ### ZSH and Oh My Zsh for terminal<a name="zsh"></a>
 
 #### Install ZSH
