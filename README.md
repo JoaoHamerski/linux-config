@@ -17,7 +17,7 @@ Cursors themes downloaded at: https://www.gnome-look.org/browse?cat=107&ord=late
 Place them unzipped on:
 
 - **User**: /home/user/.icons
-- **Root**: /root/.icons
+- **Root**: /usr/share/icons
 
 It'll be available on distro settings
 
