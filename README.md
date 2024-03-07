@@ -8,6 +8,7 @@ My personal adjustments for Ubuntu/Linux
 - [Delay on volume change fix](#delay-volume)
 - [Dual boot Windows-Ubuntu time fix](#time-fix)
 - [Enable touch-to-click on login screen](#enable-touch)
+- [Font Manager](#font-manager)
 - [GRUB Customizer](#grub-customizer)
 - [Flameshot for screenshots](#flameshot)
 - [Papirus Icon Theme](#papirus-icon)
@@ -66,6 +67,13 @@ https://askubuntu.com/questions/1376719/obnoxious-delay-on-hold-volume-up-down
 
 https://mashtips.com/fix-linux-windows-dual-boot-clock-different-time/  
 `timedatectl set-local-rtc 1 --adjust-system-clock`
+
+### Font Manager
+```
+sudo add-apt-repository ppa:font-manager/staging
+sudo apt-get update
+sudo apt-get install font-manager
+```
 
 ### Enable touch-to-click on login screen<a name="enable-touch"></a>
 
