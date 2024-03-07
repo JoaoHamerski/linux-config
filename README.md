@@ -6,6 +6,7 @@ My personal adjustments for Ubuntu/Linux
 - [Change default emoji shortcut](#default-emoji)
 - [Change GRUB background color](#change-grub)
 - [Delay on volume change fix](#delay-volume)
+- [Disable shutdown confirmation](#shutdown-confirmation)
 - [Dual boot Windows-Ubuntu time fix](#time-fix)
 - [Enable touch-to-click on login screen](#enable-touch)
 - [Font Manager](#font-manager)
@@ -62,6 +63,11 @@ https://askubuntu.com/questions/1376719/obnoxious-delay-on-hold-volume-up-down
 > open `/etc/pulse/daemon.conf`  
 > uncomment and set `enable-deferred-volume=no`  
 > on terminal: `pulseaudio -k && pulseaudio --start`
+
+### Disable shutdown confirmation<a href="shutdown-confirmation"></a>
+```
+gsettings set org.gnome.SessionManager logout-prompt false
+```
 
 ### Dual boot Windows-Ubuntu time fix<a name="time-fix"></a>
 
