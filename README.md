@@ -179,9 +179,9 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
 https://github.com/ohmyzsh/ohmyzsh
 
-#### FiraCode Font
+#### Hack font
 
-https://github.com/tonsky/FiraCode/releases
+https://github.com/source-foundry/Hack/releases
 
 #### Dracula Theme
 
