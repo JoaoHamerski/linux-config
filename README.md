@@ -64,7 +64,7 @@ https://askubuntu.com/questions/1376719/obnoxious-delay-on-hold-volume-up-down
 > uncomment and set `enable-deferred-volume=no`  
 > on terminal: `pulseaudio -k && pulseaudio --start`
 
-### Disable shutdown confirmation<a href="shutdown-confirmation"></a>
+### Disable shutdown confirmation<a name="shutdown-confirmation"></a>
 ```
 gsettings set org.gnome.SessionManager logout-prompt false
 ```
