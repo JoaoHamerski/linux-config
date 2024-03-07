@@ -11,6 +11,7 @@ My personal adjustments for Ubuntu/Linux
 - [GRUB Customizer](#grub-customizer)
 - [Flameshot for screenshots](#flameshot)
 - [Papirus Icon Theme](#papirus-icon)
+- [Slow network](#slow-network)
 - [SSH config file example](#ssh-config)
 - [Virtual Box Driver Error](#virtual-box)
 - [ZSH and Oh My Zsh for terminal](#zsh)
@@ -106,7 +107,12 @@ sudo apt-get install grub-customizer
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
-
+### Slow network
+Edit
+```
+/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+```   
+Change the value from `3` to `2`
 
 ### SSH config file example<a name="ssh-config"></a>
 
