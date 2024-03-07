@@ -12,7 +12,7 @@ My personal adjustments for Ubuntu/Linux
 - [Font Manager](#font-manager)
 - [GRUB Customizer](#grub-customizer)
 - [Flameshot for screenshots](#flameshot)
-- [Packages: PHP, NODE, MYSQL, SQLITE, DOCKER](#packages)
+- [Packages: PHP, COMPOSER, NODE, MYSQL, SQLITE, DOCKER](#packages)
 - [Papirus Icon Theme](#papirus-icon)
 - [Slow network](#slow-network)
 - [SSH config file example](#ssh-config)
@@ -118,12 +118,15 @@ sudo apt-get update
 sudo apt-get install grub-customizer
 ```
 
-### Packages: PHP, NODE, MYSQL, SQLITE, DOCKER<a name="packages"></a>
+### Packages: PHP, COMPOSER, NODE, MYSQL, SQLITE, DOCKER<a name="packages"></a>
 #### PHP
 - `sudo add-apt-repository ppa:ondrej/php`  
 - `sudo apt update`  
 - `sudo apt install php8.2 php8.2-{cli,common,mysql,zip,gd,mbstring,curl,xml,bcmath,sqlite3}`  
 
+#### COMPOSER
+- https://getcomposer.org/download/
+  
 #### NODE
 - nvm: https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
 - `nvm install --lts`
