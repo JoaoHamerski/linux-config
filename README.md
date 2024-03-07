@@ -31,7 +31,7 @@ deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64]
 
 ### Change cursors theme<a name="change-cursors"></a>
 
-Cursors themes downloaded at: https://www.gnome-look.org/browse?cat=107&ord=latest  
+Cursors theme: [https://www.gnome-look.org/browse?cat=107&ord=latest  ](https://www.gnome-look.org/p/2135236)
 Place them unzipped on:
 
 - **User**: /home/user/.icons
