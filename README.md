@@ -168,6 +168,8 @@ Host hostname
         Port 2222
         IdentityFile /path/to/identity/file
 ```
+```
+chmod 400 /path/to/identity/file  
 
 Then `ssh hostname` to connect
 
