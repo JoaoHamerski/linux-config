@@ -1,6 +1,7 @@
 # Ubuntu Setup
 My personal adjustments for Ubuntu/Linux
 
+- [Brave Error on APT Repository](#brave-error)
 - [Change cursors theme](#change-cursors)
 - [Change default emoji shortcut](#default-emoji)
 - [Change GRUB background color](#change-grub)
@@ -15,6 +16,16 @@ My personal adjustments for Ubuntu/Linux
 - [ZSH and Oh My Zsh for terminal](#zsh)
 
 # 
+### Brave Error on APT Repository<a name="brave-error"></a>
+https://community.brave.com/t/solved-linux-deb-install-gives-error-when-you-apt-update-a-repository/464626
+> N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://brave-browser-apt-release.s3.brave.com stable InRelease' doesn't support architecture 'i386'
+In: `/etc/apt/sources.list.d/brave-browser-release.list`
+
+Add: `arch=amd64` as in:  
+```
+deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main
+```
+
 ### Change cursors theme<a name="change-cursors"></a>
 
 Cursors themes downloaded at: https://www.gnome-look.org/browse?cat=107&ord=latest  
