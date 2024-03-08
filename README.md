@@ -270,3 +270,11 @@ SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
 ```
+
+#### Command not found suggestions
+```
+sudo apt install command-not-found
+```
+```
+echo "source /etc/zsh_command_not_found" >> ~/.zshrc
+```
