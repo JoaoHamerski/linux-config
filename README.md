@@ -158,9 +158,9 @@ Edit
 Change the value from `3` to `2`
 
 ### SSH config file example<a name="ssh-config"></a>
-
+```
 /home/user/.ssh/config
-
+```
 ```
 Host hostname
         HostName 192.168.0.1
@@ -170,7 +170,7 @@ Host hostname
 ```
 ```
 chmod 400 /path/to/identity/file  
-
+```
 Then `ssh hostname` to connect
 
 ### Virtual Box Driver Error<a name="virtual-box"></a>
