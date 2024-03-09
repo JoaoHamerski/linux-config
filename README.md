@@ -14,6 +14,7 @@ My personal adjustments for Ubuntu/Linux
 - [Flameshot for screenshots](#flameshot)
 - [Packages: PHP, COMPOSER, NODE, MYSQL, SQLITE, DOCKER](#packages)
 - [Papirus Icon Theme](#papirus-icon)
+- [Precise scroll on firefox](#firefox-scroll)
 - [Slow network](#slow-network)
 - [SSH config file example](#ssh-config)
 - [Virtual Box Driver Error](#virtual-box)
@@ -157,6 +158,19 @@ Edit
 ```   
 Change the value from `3` to `2`
 
+### Precise scroll on firefox<a name="firefox-scroll"></a>
+https://askubuntu.com/questions/1148934/precise-scrolling-in-firefox
+
+In:
+```
+/etc/environment
+```
+Add:
+```
+MOZ_USE_XINPUT2=1
+```
+
+```
 ### SSH config file example<a name="ssh-config"></a>
 ```
 /home/user/.ssh/config
