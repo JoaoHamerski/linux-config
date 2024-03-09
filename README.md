@@ -169,6 +169,7 @@ Add:
 ```
 MOZ_USE_XINPUT2=1
 ```
+Reboot.
 
 ### SSH config file example<a name="ssh-config"></a>
 ```
