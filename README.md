@@ -170,7 +170,6 @@ Add:
 MOZ_USE_XINPUT2=1
 ```
 
-```
 ### SSH config file example<a name="ssh-config"></a>
 ```
 /home/user/.ssh/config
