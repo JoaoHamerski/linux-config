@@ -15,6 +15,7 @@ My personal adjustments for Ubuntu/Linux
 - [Packages: PHP, COMPOSER, NODE, MYSQL, SQLITE, DOCKER](#packages)
 - [Papirus Icon Theme](#papirus-icon)
 - [Precise scroll on firefox](#firefox-scroll)
+- [Remove Ubuntu PRO Advert](#ubuntu-pro)
 - [Slow network](#slow-network)
 - [SSH config file example](#ssh-config)
 - [Virtual Box Driver Error](#virtual-box)
@@ -171,6 +172,13 @@ MOZ_USE_XINPUT2=1
 ```
 Reboot.
 
+### Remove Ubuntu PRO Advert<a name="ubuntu-pro"></a>
+https://askubuntu.com/questions/1434512/how-to-get-rid-of-ubuntu-pro-advertisement-when-updating-apt
+
+```
+sudo mv /etc/apt/apt.conf.d/20apt-esm-hook.conf /etc/apt/apt.conf.d/20apt-esm-hook.conf.bak
+sudo touch /etc/apt/apt.conf.d/20apt-esm-hook.conf
+```
 ### SSH config file example<a name="ssh-config"></a>
 ```
 /home/user/.ssh/config
