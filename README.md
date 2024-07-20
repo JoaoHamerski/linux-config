@@ -1,3 +1,7 @@
+## Add trash icon to Desktop
+gsettings set org.gnome.shell.extensions.ding show-trash true
+
+
 # Ubuntu Setup
 My personal adjustments for Ubuntu/Linux
 
