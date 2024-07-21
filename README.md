@@ -20,6 +20,7 @@ My personal adjustments for Ubuntu/Linux
 - [Remove Ubuntu PRO Advert](#ubuntu-pro)
 - [Slow network](#slow-network)
 - [SSH config file example](#ssh-config)
+- [Storage manager `ncdu`](#ncdu)
 - [Virtual Box Driver Error](#virtual-box)
 - [ZSH and Oh My Zsh for terminal](#zsh)
 
@@ -173,6 +174,11 @@ Host hostname
 chmod 400 /path/to/identity/file  
 ```
 Then `ssh hostname` to connect
+
+### Storage manager `ncdu`<a name="ncdu"></a>
+```
+sudo apt install ncdu
+```
 
 ### Virtual Box Driver Error<a name="virtual-box"></a>
 https://forums.virtualbox.org/viewtopic.php?t=110128 
