@@ -1,10 +1,9 @@
-## Add trash icon to Desktop
-gsettings set org.gnome.shell.extensions.ding show-trash true
+
 
 
 # Ubuntu Setup
 My personal adjustments for Ubuntu/Linux
-
+- [Add trash icon to Desktop](#trash-icon)
 - [Brave Error on APT Repository](#brave-error)
 - [Change cursors theme](#change-cursors)
 - [Change default emoji shortcut](#default-emoji)
@@ -25,7 +24,12 @@ My personal adjustments for Ubuntu/Linux
 - [Virtual Box Driver Error](#virtual-box)
 - [ZSH and Oh My Zsh for terminal](#zsh)
 
-# 
+#
+### Add trash icon to Desktop<a name="trash-icon"></a>
+```
+gsettings set org.gnome.shell.extensions.ding show-trash true
+```
+
 ### Brave Error on APT Repository<a name="brave-error"></a>
 https://community.brave.com/t/solved-linux-deb-install-gives-error-when-you-apt-update-a-repository/464626
 > N: Skipping acquire of configured file 'main/binary-i386/Packages' as repository 'https://brave-browser-apt-release.s3.brave.com stable InRelease' doesn't support architecture 'i386'
