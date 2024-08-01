@@ -1,4 +1,5 @@
-
+https://askubuntu.com/questions/1513445/how-to-install-latest-version-of-thunderbird-as-a-traditional-deb-package-withou
+https://www.debugpoint.com/remove-snap-ubuntu/
 
 
 # Ubuntu Setup
